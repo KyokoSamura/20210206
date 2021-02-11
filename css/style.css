@@ -151,30 +151,39 @@ input, select {
   font-weight: bold;
 }
 
-.top {
+#top {
  margin: 0 0 0 auto;
  position: relative;
- top: -42px;
+ top: -60px;
+ height: 60px;
+ justify-content: center;
+ display: flex;
+ text-align: center;
 }
 
-.top td {
-  display: flex;
+.news-title {
+  margin: 0 0 0 auto;
   width: 600px;
-  height: 30%;
+  color: black;
+  background-color: white;
+  padding: 5px;
+  text-align: left;
 }
 
-.top th {
+
+.top-p {
   width: 100px;
-  padding: 10px;
   color: white;
   background-color: black;
+  align-items: center;
+  padding: 25px;
+  float: left;
 }
 
 #black {
   background-color: black;
   height: 350px;
-  margin-top: -50px;
-
+  margin-top: -60px;
 }
 
 .black-left {
@@ -204,7 +213,6 @@ input, select {
 }
 
 .link {
-  margin-top: 500px;
   padding: 5px 20px;
   font-size: 14px;
   color: black;
@@ -440,7 +448,6 @@ input, select {
   color: white;
   height: 60px;
   padding: 20px;
-  margin-top: 2428px;
 }
 
 .footer-wrap {
@@ -472,9 +479,9 @@ input, select {
 body {
   display: flex;
   flex-flow: column;
-  min-height: 100vh;
+  min-height: 574vh;
 }
 
 main {
-  flex: 1;
+  flex: 1
 }
