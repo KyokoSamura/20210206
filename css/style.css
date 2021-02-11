@@ -329,7 +329,7 @@ input, select {
 .company,
 .recruit {
   position: relative;
-  width: 80%;
+  width: 49%;
 }
 
 
@@ -363,12 +363,12 @@ input, select {
 
 .company img, 
 .recruit img {
-  width: 100%;
+  width: 90%;
   height: 300px;
 }
 
 .recruit img {
-  margin: 0 0 0 auto;
+  float: right;
 }
 
 #FAQ {  
