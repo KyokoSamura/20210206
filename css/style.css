@@ -455,6 +455,7 @@ input, select {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
+  padding-top: 10px;
 }
 
 .footer-nav ul {
@@ -482,6 +483,6 @@ body {
 }
 
 main {
-  flex: 1
-  min-height: 800vh;
+  flex: 1;
+  min-height: 545vh;
 }
