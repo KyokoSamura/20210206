@@ -479,9 +479,9 @@ input, select {
 body {
   display: flex;
   flex-flow: column;
-  min-height: 574vh;
 }
 
 main {
   flex: 1
+  min-height: 800vh;
 }
